@@ -1,0 +1,4 @@
+*.swp
+/.config/
+/Pharo/
+/pharolauncher/
