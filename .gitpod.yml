@@ -1,5 +1,5 @@
 image:
-  file: pharo.dockerfile
+  file: .gitpod.dockerfile
 
 ports:
   - port: 5900           # standard vnc viewer - not used in this repo
@@ -9,5 +9,5 @@ ports:
 
 tasks:
   - name: pharo
-    init: ./get-pharo.sh
-    command: HOME=$(pwd) ./pharolauncher/pharo-launcher
+    init: ./install-dev
+    command: ./dev
